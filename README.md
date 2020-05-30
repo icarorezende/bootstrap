@@ -5,5 +5,5 @@ Material desenvolvido durante aprendizado de novas tecnologias.
 
 Diretório | Curso
 --------- | ------
-bootstrap | Construindo páginas para internet com Bootstrap
+/bootstrap | Construindo páginas para internet com Bootstrap
 
