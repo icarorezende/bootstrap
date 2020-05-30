@@ -3,5 +3,7 @@ Material desenvolvido durante aprendizado de novas tecnologias.
 
 ### Digital Innovation One
 
-/bootstrap  | Construindo páginas para internet com Bootstrap
+Diretório | Curso
+--------- | ------
+bootstrap | Construindo páginas para internet com Bootstrap
 
