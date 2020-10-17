@@ -3,7 +3,7 @@ Material desenvolvido durante aprendizado de novas tecnologias.
 
 ### Digital Innovation One
 
-Diretório | Curso
---------- | ------
-/bootstrap | Construindo páginas para internet com Bootstrap
-
+Diretório | Tecnologia | Curso
+--------- | ---------- | ---------------------------------------
+/2001 | Bootstrap |[DIO] Construindo páginas para internet com Bootstrap
+/2002 | .Net |[DIO] Primeiros passos com .NET + C#
