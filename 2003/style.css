@@ -37,7 +37,7 @@ a {
     font-size: "16";
     font-style: italic;
     font-weight: bold;
-/*    text-transform: lowercase;*/
+    /*    text-transform: lowercase;*/
     text-decoration: overline;
     margin-bottom: 15px;
 }
@@ -68,4 +68,23 @@ a {
 
 .post_image {
     margin-bottom: 15px;
+}
+
+.post_content a {
+    color: darkolivegreen;
+}
+
+footer li {
+    font-style: italic;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul {
+    /*    list-style-type: square; */
+    /*    list-style-type: none; */
+    list-style-type: "\1f464";
+    padding-left: 15px;
 }
