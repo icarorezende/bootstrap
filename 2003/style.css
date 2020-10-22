@@ -1,25 +1,56 @@
+body {
+    background: #f7f7f7; /* background = background-color */
+}
+
+
 
 /*  
     # -> id ( Pode ser usado apenas uma vez )
     . -> class 
 */
-
-#title, .subtitle, .post_title{
-    color: blue;
+#title,
+.subtitle,
+.post_title {
+    color: darkblue;
+    margin: 0;
 }
 
-.subtitle{
+#profile{
+    border-radius: 50%;
+    border: greenyellow 3px solid;
+}
+
+.subtitle {
     font-size: "16";
     font-style: italic;
 }
 
-body{
-    background: #ccc ;
+.post {
+    background: #fff;
+
+    padding: 10px 5px 10px 25px; /*  Ordem do padding: sentido horário (top right botton left) */
+
+    border: 3px solid #ccc; /* Equivalentes: border-width border-style border-color */
+    border-top: greenyellow 3px dotted; /* Ordem dos parametros é irrelevante*/
+    border-bottom: dashed 3px greenyellow;
+    border-radius: 10px 20% 5% 20px; /* Mesclando Unidades */
+
+    margin-bottom: 15px;
 }
 
-.post{
-    background: #fff;
-    padding: 10px;
-    border: 3px solid #000;
-    margin: 10px;
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image{
+    margin-bottom: 15px;
 }
