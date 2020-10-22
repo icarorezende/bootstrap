@@ -1,6 +1,9 @@
 body {
     background: #f7f7f7; /* background = background-color */
     font-family: Verdana;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
 }
 
 a {
@@ -64,10 +67,12 @@ a {
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-align: justify;
 }
 
-.post_image {
+.post_img {
     margin-bottom: 15px;
+    width: 80%;
 }
 
 .post_content a {
