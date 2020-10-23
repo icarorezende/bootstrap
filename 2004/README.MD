@@ -18,6 +18,6 @@ Página de login do Instagram: nesse projeto, será abordado o conceito sobre CS
 
 ## Autor
 
-> Ícaro Rezende 
-> [@icarorezende](https://twitter.com/icarorezende) 
-> contato@icarorezende.com
+Ícaro Rezende 
+[@icarorezende](https://twitter.com/icarorezende) 
+contato@icarorezende.com
