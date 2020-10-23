@@ -10,7 +10,8 @@
 Página de login do Instagram: nesse projeto, será abordado o conceito sobre CSS Flexbox e responsividade, preparando os alunos para as aulas de jogos, nas quais será utilizado o CSS junto ao JavaScript para estilização e posicionamento.
 
 ## Release History
-* 0.1 -  Release Inicial - Parte 1 da aula.
+* 1.0 - Exercício finalizado
+* 0.1 - Release Inicial - Parte 1 da aula.
 
 ## ToDo
 * []

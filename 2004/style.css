@@ -1,0 +1,178 @@
+/* Zerar parâmetros*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+}
+
+.page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+    position: relative;
+}
+
+.page-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.page-phone img {
+    height: 90vh;
+}
+
+.page-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column; /*Inverte a orientação do align e justfy*/
+    width: 50%;
+    min-height: 40rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {
+    min-height: 25rem;
+}
+
+#logo {
+    height: 6rem;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-photo img {
+    height: 6rem;
+}
+
+.page-login {
+    background-color: steelblue;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.page-logout {
+    color: steelblue;
+    margin-top: 1rem;
+}
+
+.not-user {
+    color: lightslategray;
+}
+
+.link {
+    color: steelblue;
+}
+
+.get-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-down {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-down:nth-child(1) {
+    background-image: url(./img/appstore.png);
+}
+
+.app-down:nth-child(2) {
+    background-image: url(./img/googleplay.png);
+}
+
+.rodape {
+    width: 90%;
+    height: 5vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.rodape ul li {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-align: justify;
+    color: darkslateblue;
+    padding-inline: 5px;
+}
+
+.rodape p {
+    text-align: justify;
+    text-transform: uppercase;
+    text-align-last: justify;
+}
+
+/* RESPONSIVIDADE */
+
+/* Mmedia queries */
+
+@media (max-width: 1024px) {
+    .page-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 640px) {
+    .page-wrapper {
+        width: 90%;
+    }
+    .page-phone {
+        display: none;
+    }
+    .page-continue {
+        width: 100%;
+    }
+}
